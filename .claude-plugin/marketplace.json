@@ -1,0 +1,22 @@
+{
+  "name": "polythis",
+  "owner": {
+    "name": "Felipe Marquezini",
+    "url": "https://github.com/marquezinii"
+  },
+  "metadata": {
+    "description": "Language-fit audit skill: find which parts of a codebase belong in another language, and which should stay.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "polythis",
+      "source": "./",
+      "description": "Audits whether each part of a codebase is written in the right language and recommends keep, optimize, extract, or consolidate with evidence.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "keywords": ["polyglot", "rewrite", "rust", "cpp", "csharp", "go", "performance", "native-addon", "webassembly", "audit"],
+      "skills": ["./skills/polythis"]
+    }
+  ]
+}

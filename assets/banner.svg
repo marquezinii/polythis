@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="t d">
+  <title id="t">polythis</title>
+  <desc id="d">The right language for every part of your codebase. An agent skill that audits language fit.</desc>
+  <rect width="1280" height="400" rx="24" fill="#0d1117"/>
+  <g fill="none" stroke="#21262d" stroke-width="1">
+    <path d="M0 80H1280M0 160H1280M0 240H1280M0 320H1280"/>
+    <path d="M160 0V400M320 0V400M480 0V400M640 0V400M800 0V400M960 0V400M1120 0V400"/>
+  </g>
+  <text x="96" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="92" font-weight="700" fill="#f0f6fc">poly<tspan fill="#7ee787">this</tspan></text>
+  <text x="100" y="232" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" font-size="30" fill="#8b949e">The right language for every part of your codebase.</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">
+    <g transform="translate(100 286)">
+      <rect width="96" height="40" rx="8" fill="#161b22" stroke="#30363d"/><text x="48" y="27" text-anchor="middle" fill="#e3b341">JS/TS</text>
+    </g>
+    <text x="214" y="313" fill="#6e7681">→</text>
+    <g transform="translate(244 286)">
+      <rect width="82" height="40" rx="8" fill="#161b22" stroke="#30363d"/><text x="41" y="27" text-anchor="middle" fill="#ffa657">Rust</text>
+    </g>
+    <g transform="translate(344 286)">
+      <rect width="72" height="40" rx="8" fill="#161b22" stroke="#30363d"/><text x="36" y="27" text-anchor="middle" fill="#79c0ff">C++</text>
+    </g>
+    <g transform="translate(434 286)">
+      <rect width="62" height="40" rx="8" fill="#161b22" stroke="#30363d"/><text x="31" y="27" text-anchor="middle" fill="#d2a8ff">C#</text>
+    </g>
+    <g transform="translate(514 286)">
+      <rect width="62" height="40" rx="8" fill="#161b22" stroke="#30363d"/><text x="31" y="27" text-anchor="middle" fill="#56d4dd">Go</text>
+    </g>
+    <g transform="translate(594 286)">
+      <rect width="82" height="40" rx="8" fill="#161b22" stroke="#30363d"/><text x="41" y="27" text-anchor="middle" fill="#a5d6ff">WASM</text>
+    </g>
+    <g transform="translate(694 286)">
+      <rect width="96" height="40" rx="8" fill="#161b22" stroke="#7ee787"/><text x="48" y="27" text-anchor="middle" fill="#7ee787">KEEP</text>
+    </g>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#8b949e">
+    <rect x="880" y="96" width="304" height="232" rx="12" fill="#161b22" stroke="#30363d"/>
+    <text x="904" y="132" fill="#f0f6fc">verdicts</text>
+    <text x="904" y="168"><tspan fill="#7ee787">KEEP</tspan>  src/api</text>
+    <text x="904" y="198"><tspan fill="#e3b341">OPTIMIZE</tspan>  src/search</text>
+    <text x="904" y="228"><tspan fill="#ffa657">EXTRACT</tspan>  src/imaging</text>
+    <text x="904" y="258"><tspan fill="#d2a8ff">PILOT</tspan>  core/parser</text>
+    <text x="904" y="288"><tspan fill="#79c0ff">CONSOLIDATE</tspan>  scripts</text>
+  </g>
+</svg>
